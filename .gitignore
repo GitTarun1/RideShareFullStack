@@ -12,8 +12,10 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-*.xml
 *.iml
+# Specific XML files to ignore (but NOT pom.xml)
+*.ipr
+*.iws
 
 # Node / frontend build output
 rideshare-frontend/node_modules/
